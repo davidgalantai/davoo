@@ -16,14 +16,14 @@ public class Password {
 		   System.out.println("Correct password!"); // programmet skriver ut att lösenordet är rätt.
 		   }
 		   
-		else {  //Jag skapar en else påstående.                    
-			System.out.println("Wrong password!"); // om lösenordet är fel så hamnar det här i else då skriver programmet ut att det är fel lösenord.
+		 else {  //   om lösenordet är fel så hamnar det här i else                
+			System.out.println("Wrong password!"); //  då skriver programmet ut att det är fel lösenord.
 			
 			System.out.println("you have 2 more attempts"); // programmet skriver ut att användaren har 2 försök kvar.
 			
-			String password2 = reader.nextLine(); // skapar en string som heter password2 programmet läser in andra försöket på lösenordet.
+			 password = reader.nextLine(); // skapar en string variabel ksom heter password2 programmet läser in andra försöket på lösenordet.
 			
-			if (password2.equals(correct)) { // programmet kollar om lösenordet är lika med correct.
+			  if (password.equals(correct)) { // programmet kollar om lösenordet är lika med correct.
 				   System.out.println("Correct password!");  // programmet skriver ut att lösenordet är rätt.
 				   }
 				   
@@ -33,29 +33,16 @@ public class Password {
 					System.out.println("You have 1 more attempts!"); // skriver ut du har 1 försök kvar.
 		
 				
-					String password3 = reader.nextLine(); // skapar en string som heter password3 den läser in tredje försöket på lösenordet
+					password = reader.nextLine(); // skapar en string som heter password3 den läser in tredje försöket på lösenordet
 					
-					if (password3.equals(correct)) { // om password3 är lika med correct.
+					if (password.equals(correct)) { // om password3 är lika med correct.
 						   System.out.println("Correct password!"); // skriver ut att lösenordet är rätt
 						   }
 						   
 						else { // ananrs.
-							System.out.println("Wrong password" + "\n" + "You have no more attempts"); // skriver ut att det är fel lösenord radbrytning du har inga fler försök.
-							
+							System.out.println("Wrong password" + "\n" + "You have no more attempts"); // skriver ut att det är fel lösenord radbrytning du har inga fler försök.								
 				
-				
-				
-				
-				
-				
-				
-				}
-			
-			
-			
-		
-		
-		
+				}	
 
 	}
 
